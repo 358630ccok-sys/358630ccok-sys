@@ -1,21 +1,22 @@
-# Hi, I'm SOK (358630ccok-sys)
+# Привет! Я SOK (358630ccok-sys)
 
-Homelab / DevOps / MLOps enthusiast building a local-first AI infrastructure on Proxmox.
+Junior DevOps / MLOps-инженер. Занимаюсь автоматизацией инфраструктуры, CI/CD, мониторингом и развёртыванием локальных LLM в домашней лаборатории на базе **Proxmox VE**.
 
-## Stack
-- **Proxmox VE** — virtualization and lab orchestration
-- **Local LLM (AMD ROCm + Ollama)** — inference (e.g. qwen2.5-coder) and embeddings (nomic-embed-text)
-- **Dify + Qdrant** — RAG assistant grounded in Obsidian Vault
-- **Whisper (CPU)** — voice transcription pipeline
-- **n8n** — automation and sync workflows
-- **Prometheus + Grafana** — monitoring and TV kiosk dashboards
-- **GitLab CI/CD** — IaC validation and automated deploys
-- **Telegram Bot** — voice/text assistant integrated with lab services and GitHub
+## О лаборатории
+Домашняя MLOps/DevOps-лаборатория построена как единый локальный контур: виртуализация и изоляция сервисов, контейнеризация, автоматизация рутины, наблюдаемость и эксперименты с локальным ИИ.
 
-## Focus
-- Local-first AI/MLOps workflows
-- Observable, reproducible infrastructure
-- Continuous improvement via automation
+## Архитектура и направления
+- **Виртуализация и ОС:** **Proxmox VE**, **Linux**
+- **Контейнеризация и доставка:** **Docker**, **Docker Compose**, **GitLab CI/CD** (IaC, валидация и деплой конфигураций)
+- **Локальный ИИ / RAG:** **Ollama** (LLM-инференс), **Dify**, **Qdrant**, **n8n** (автоматизация и синхронизация данных)
+- **Мониторинг и доступ:** **Prometheus**, **Grafana** (дашборды и kiosk-режим), **Nginx**
+- **Разработка и автоматизация:** **Python**, **Bash**, **SQL**
+
+## Чем занимаюсь
+- Автоматизация развёртывания и сопровождения сервисов
+- Построение CI/CD-пайплайнов и инфраструктуры как кода (IaC)
+- Мониторинг, метрики и визуализация состояния систем
+- Интеграция локальных LLM/RAG в прикладные сценарии
 
 ---
-*Maintained with homelab automation.*
+*Профиль и часть инфраструктурных артефактов поддерживаются автоматически из домашней лаборатории.*
